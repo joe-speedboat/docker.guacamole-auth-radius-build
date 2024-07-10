@@ -1,7 +1,7 @@
-FROM ubuntu:latest
+FROM ubuntu:jammy
 
 ENV DEBIAN_FRONTEND=noninteractive
-ARG VERSION=1.5.1
+ARG VERSION=1.5.5
 
 RUN \
  echo "**** install packages ****" && \
